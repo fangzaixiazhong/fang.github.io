@@ -437,18 +437,16 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>打cs2总感觉人机难度太低了，即使用了命令</p>
+                <p>打cs2总感觉人机难度太低了，即使使用了命令</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">custom_bot_difficulty 5</span><br><span class="line">bot_difficulty 3</span><br></pre></td></tr></table></figure>
 
-<p>于是上网找了些教程</p>
-<ol>
-<li><a target="_blank" rel="noopener" href="https://www.bilibili.com/opus/1099748125897129990">几乎汇总了所有方法</a></li>
-<li><a target="_blank" rel="noopener" href="https://github.com/manicogaming/CSGOBetterBots/blob/master/botprofile.db">加上了所有职业选手</a></li>
-</ol>
+<p>于是上网找了些个个教程<br><a target="_blank" rel="noopener" href="https://www.bilibili.com/opus/1099748125897129990">几乎汇总了所有方法</a></p>
 <p>我的修改是</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">Elite+Rifle xxc</span><br><span class="line">	AimFocusInitial = 0.01</span><br><span class="line">	AimFocusDecay = 0.03</span><br><span class="line">	AimFocusOffsetScale = 0.01</span><br><span class="line">	AimfocusInterval = 0.01</span><br><span class="line">End</span><br><span class="line"></span><br><span class="line">Elite+Sniper s1mple</span><br><span class="line">	AimFocusInitial = 0.001</span><br><span class="line">	AimFocusDecay = 0.002</span><br><span class="line">	AimFocusOffsetScale = 0.001</span><br><span class="line">	AimfocusInterval = 0.001</span><br><span class="line">End</span><br><span class="line"></span><br><span class="line">Elite+Rifle zywoo</span><br><span class="line">	AimFocusInitial = 0.0008</span><br><span class="line">	AimFocusDecay = 0.002</span><br><span class="line">	AimFocusOffsetScale = 0.003</span><br><span class="line">	AimfocusInterval = 0.002</span><br><span class="line">End</span><br></pre></td></tr></table></figure>
 
-<p>难度还在测试中。</p>
+<p>经测试，修改后人机的枪法还是有点不准，但只要打中第一枪之后几枪就能很快跟上，在进攻的时候有点压迫感，转角遇到爱的人机也能很快反应。</p>
+<p>然后采用了<a target="_blank" rel="noopener" href="https://github.com/manicogaming/CSGOBetterBots/blob/master/botprofile.db">更强人机</a>。<br>这里的人机压迫感就比较足了，过点的时候很容易被连续几枪带走，架过点也容易被反应过来，补枪也很快。但由于意识上的缺陷，实际强度只有C+这样。</p>
+<p> 另：<a target="_blank" rel="noopener" href="https://www.bilibili.com/opus/951079993330368530">如何快速生成人机对局</a></p>
 
                 
             </div>
